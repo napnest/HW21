@@ -1,6 +1,6 @@
 package badCode.i;
 
-public class Bicycle implements Transport {
+public class Bicycle implements baseAction {
     @Override
     public void start() {
         // запустить велосипед
@@ -21,13 +21,4 @@ public class Bicycle implements Transport {
         // замедлить велосипед
     }
 
-    @Override
-    public void refuel() {
-        throw new RuntimeException("Not implemented");
-    }
-
-    @Override
-    public void honk() {
-        throw new RuntimeException("Not implemented");
-    }
 }
